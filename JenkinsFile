@@ -21,7 +21,7 @@ pipeline {
 			steps{
 				echo '************************************************'
 				echo 'Running Ansible'
-				Run 'TrasferWarFile'
+				Build 'TrasferWarFile'
 				echo '************************************************'
 			}
 		}
